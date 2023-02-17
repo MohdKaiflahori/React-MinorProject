@@ -1,0 +1,72 @@
+*{
+  margin: 3px;
+}
+body {
+  background: #eee;
+}
+#getImg {
+  position: relative;
+  height: auto;
+  background: rgb(227, 119, 119);
+  border: 10px groove rgb(77, 0, 80);
+  color: rgb(77, 0, 80);
+}
+img {
+  width: 250px;
+  height: 250px;
+  margin: 15px 20px 25px 20px;
+}
+
+.galHeader {
+  display: flex;
+  top: 0%;
+  justify-content: space-between;
+  height: 50px;
+  width: 100%;
+}
+.galHeader h3 {
+  margin-top: 10px;
+}
+.button-4 {
+  margin-top: -5px;
+  align-items: center;
+  background-color: initial;
+  background-image: linear-gradient(
+    rgba(179, 132, 201, 0.84),
+    rgba(57, 31, 91, 0.84) 50%
+  );
+  border-radius: 42px;
+  border-width: 0;
+  box-shadow: rgba(57, 31, 91, 0.24) 0 2px 2px,
+    rgba(179, 132, 201, 0.4) 0 8px 12px;
+  color: #ffffff;
+  cursor: pointer;
+  display: flex;
+  font-family: Quicksand, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  justify-content: center;
+  letter-spacing: 0.04em;
+  line-height: 16px;
+  padding: 18px 18px;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: rgba(255, 255, 255, 0.4) 0 0 4px,
+    rgba(255, 255, 255, 0.2) 0 0 12px, rgba(57, 31, 91, 0.6) 1px 1px 4px,
+    rgba(57, 31, 91, 0.32) 4px 4px 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+}
+
+.button-4:hover {
+  background-image: linear-gradient(#b384c9, #391f5b 50%);
+}
+
+@media (min-width: 768px) {
+  .button-4 {
+    font-size: 21px;
+    padding: 18px 34px;
+  }
+}
